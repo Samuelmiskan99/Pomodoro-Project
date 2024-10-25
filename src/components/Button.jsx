@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types'; // Import prop-types
+import PropTypes from 'prop-types';
 
 const Button = ({ title, activeClass, _callback }) => {
    return (

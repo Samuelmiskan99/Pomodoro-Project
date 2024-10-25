@@ -9,7 +9,7 @@ const CountdownTimer = ({ timer = 25, animate = true }) => {
    return (
       <CountdownCircleTimer
          isPlaying={animate}
-         duration={timer * 60} // Durasi dalam detik (misalnya 25 menit x 60 detik)
+         duration={timer * 60}
          colors={['#FF4500']}
          strokeWidth={12}
          size={220}
